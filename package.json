@@ -1,0 +1,30 @@
+{
+  "name": "cs-cpu-bug",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Minimal reproduction case for Cornerstone.js CPU rendering bug",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "echo 'Open http://localhost:5173 and http://localhost:5173/index2.html to test'"
+  },
+  "keywords": [
+    "cornerstone",
+    "medical-imaging",
+    "bug-reproduction",
+    "cpu-rendering"
+  ],
+  "devDependencies": {
+    "@originjs/vite-plugin-commonjs": "^1.0.3",
+    "vite": "^7.1.6"
+  },
+  "dependencies": {
+    "@cornerstonejs/core": "^4.3.4",
+    "@cornerstonejs/dicom-image-loader": "^4.3.4",
+    "@cornerstonejs/tools": "^4.3.4",
+    "dicom-parser": "^1.8.21",
+    "dicomweb-client": "^0.11.2"
+  }
+}
